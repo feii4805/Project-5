@@ -1,0 +1,50 @@
+body {    
+    color: rgb(236, 127, 10);
+    text-align: center;
+    background-color: #EBFFFF;
+    font-family: 'Titillium Web', sans-serif;
+    background-image: linear-gradient(90deg, rgb(255, 255, 255), rgb(132, 183, 155), white);
+    font-size: 16px;
+ 
+   
+  }
+  .q1 {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  .q2 {
+    font-size: 32px;
+    margin-top: 50px;
+    transition: all 2s;
+  }
+  .q2:hover {
+    font-style: italic;
+  }
+  .startbutton {
+    font-size: 24px;
+    display: inline-block;
+    width: 20%;
+    margin-top:20px;
+    transition: color 3s;
+  }
+  .startbutton:hover {
+    box-shadow: 0 5px 15px rgba(11, 219, 219,0.9);
+    background-color: rgba(28, 148, 28, 0.806);
+    
+  }
+  a img {
+    display: none;
+  }
+  a:hover img {
+    display: inline;
+  }
+  a {
+    color: rgb(36, 47, 165);
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+  }
